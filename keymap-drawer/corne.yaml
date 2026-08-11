@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: ['&studio_unlock', Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, lower,
-    SPACE, RET, raise, RALT]
+  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, lower, SPACE, RET,
+    raise, RALT, MUTE, PP]
   lower:
   - ESC
   - '1'
@@ -45,6 +45,8 @@ layers:
   - RET
   - adjust
   - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
   - TAB
   - '!'
@@ -88,6 +90,8 @@ layers:
   - RET
   - {type: held}
   - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,4 +134,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
